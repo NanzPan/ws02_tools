@@ -42,7 +42,7 @@
             <box size="${car_length} ${car_width} ${car_height}"/>
         </geometry>
         <material name="yellow"/>
-        <origin xyz="0.0 0.0 ${car_height/2 + distance}"/>
+        <origin xyz="0.0 0.0 0.1275"/>
     </visual>
     
 </link>
