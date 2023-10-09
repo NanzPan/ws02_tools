@@ -1,0 +1,2 @@
+Invoking command in '/home/pz10on/Work/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws02_tools/build/cpp04_tf_listener -- -j12 -l12
+Invoked command in '/home/pz10on/Work/ws02_tools/build/cpp04_tf_listener' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws02_tools/build/cpp04_tf_listener -- -j12 -l12

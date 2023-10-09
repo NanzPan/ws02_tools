@@ -1,0 +1,4 @@
+Invoking command in '/home/pz10on/Work/ws02_tools/build/kruisee_lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pz10on/Work/ws02_tools/src/kruisee_lidar -DCMAKE_INSTALL_PREFIX=/home/pz10on/Work/ws02_tools/install/kruisee_lidar
+Invoked command in '/home/pz10on/Work/ws02_tools/build/kruisee_lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pz10on/Work/ws02_tools/src/kruisee_lidar -DCMAKE_INSTALL_PREFIX=/home/pz10on/Work/ws02_tools/install/kruisee_lidar
+Invoking command in '/home/pz10on/Work/ws02_tools/build/kruisee_lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws02_tools/build/kruisee_lidar -- -j12 -l12
+Invoked command in '/home/pz10on/Work/ws02_tools/build/kruisee_lidar' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws02_tools/build/kruisee_lidar -- -j12 -l12

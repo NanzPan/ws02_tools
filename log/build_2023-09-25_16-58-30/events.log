@@ -1,0 +1,84 @@
+[0.000000] (-) TimerEvent: {}
+[0.000136] (-) JobUnselected: {'identifier': 'cpp01_launch'}
+[0.000233] (cpp02_rosbag2) JobQueued: {'identifier': 'cpp02_rosbag2', 'dependencies': OrderedDict()}
+[0.000381] (cpp02_rosbag2) JobStarted: {'identifier': 'cpp02_rosbag2'}
+[0.009290] (cpp02_rosbag2) JobProgress: {'identifier': 'cpp02_rosbag2', 'progress': 'cmake'}
+[0.009774] (cpp02_rosbag2) JobProgress: {'identifier': 'cpp02_rosbag2', 'progress': 'build'}
+[0.010196] (cpp02_rosbag2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pz10on/Work/ws02_tools/build/cpp02_rosbag2', '--', '-j12', '-l12'], 'cwd': '/home/pz10on/Work/ws02_tools/build/cpp02_rosbag2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pz10on'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pz10on'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.73.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1700'), ('SYSTEMD_EXEC_PID', '2206'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5093'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'pz10on'), ('JOURNAL_STREAM', '8:35016'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pz10on'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pz10on-laptop:@/tmp/.ICE-unix/2179,unix/pz10on-laptop:/tmp/.ICE-unix/2179'), ('INVOCATION_ID', '07992859b61e46ab8acbd184f3bfc648'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1ddad89994.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/pz10on/Work/ws02_tools/build/cpp02_rosbag2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.029656] (cpp02_rosbag2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099837] (-) TimerEvent: {}
+[0.126332] (cpp02_rosbag2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.144391] (cpp02_rosbag2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.145950] (cpp02_rosbag2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.149615] (cpp02_rosbag2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.156553] (cpp02_rosbag2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.166301] (cpp02_rosbag2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199934] (-) TimerEvent: {}
+[0.203996] (cpp02_rosbag2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.204716] (cpp02_rosbag2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.280517] (cpp02_rosbag2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300013] (-) TimerEvent: {}
+[0.382537] (cpp02_rosbag2) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.15.7 (/opt/ros/humble/share/rosbag2_cpp/cmake)\n'}
+[0.400098] (-) TimerEvent: {}
+[0.405257] (cpp02_rosbag2) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.436843] (cpp02_rosbag2) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[0.500197] (-) TimerEvent: {}
+[0.533536] (cpp02_rosbag2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.580953] (cpp02_rosbag2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.581110] (cpp02_rosbag2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/pz10on/Work/ws02_tools/src/cpp02_rosbag2/include>\n'}
+[0.581154] (cpp02_rosbag2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.581355] (cpp02_rosbag2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.581928] (cpp02_rosbag2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.581969] (cpp02_rosbag2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.582100] (cpp02_rosbag2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.582700] (cpp02_rosbag2) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.593786] (cpp02_rosbag2) StdoutLine: {'line': b'-- Generating done\n'}
+[0.595030] (cpp02_rosbag2) StdoutLine: {'line': b'-- Build files have been written to: /home/pz10on/Work/ws02_tools/build/cpp02_rosbag2\n'}
+[0.600284] (-) TimerEvent: {}
+[0.623552] (cpp02_rosbag2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo01_writer.cpp.dir/src/demo01_writer.cpp.o\x1b[0m\n'}
+[0.623804] (cpp02_rosbag2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo02_read.cpp.dir/src/demo02_read.cpp.o\x1b[0m\n'}
+[0.700414] (-) TimerEvent: {}
+[0.800725] (-) TimerEvent: {}
+[0.901062] (-) TimerEvent: {}
+[1.001356] (-) TimerEvent: {}
+[1.101613] (-) TimerEvent: {}
+[1.201885] (-) TimerEvent: {}
+[1.302204] (-) TimerEvent: {}
+[1.402481] (-) TimerEvent: {}
+[1.502756] (-) TimerEvent: {}
+[1.603020] (-) TimerEvent: {}
+[1.703291] (-) TimerEvent: {}
+[1.803582] (-) TimerEvent: {}
+[1.903847] (-) TimerEvent: {}
+[2.004113] (-) TimerEvent: {}
+[2.104412] (-) TimerEvent: {}
+[2.204690] (-) TimerEvent: {}
+[2.304970] (-) TimerEvent: {}
+[2.405305] (-) TimerEvent: {}
+[2.408873] (cpp02_rosbag2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pz10on/Work/ws02_tools/src/cpp02_rosbag2/src/demo01_writer.cpp:28:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krosbag2_cpp\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.409055] (cpp02_rosbag2) StderrLine: {'line': b'   28 |         std::unique_ptr<\x1b[01;31m\x1b[Krosbag2_cpp\x1b[m\x1b[K::Writer> writer_;\n'}
+[2.409102] (cpp02_rosbag2) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.409152] (cpp02_rosbag2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pz10on/Work/ws02_tools/src/cpp02_rosbag2/src/demo01_writer.cpp:28:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.409207] (cpp02_rosbag2) StderrLine: {'line': b'   28 |         std::unique_ptr<rosbag2_cpp::Writer\x1b[01;31m\x1b[K>\x1b[m\x1b[K writer_;\n'}
+[2.409261] (cpp02_rosbag2) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.409304] (cpp02_rosbag2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pz10on/Work/ws02_tools/src/cpp02_rosbag2/src/demo01_writer.cpp:28:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[2.411637] (cpp02_rosbag2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pz10on/Work/ws02_tools/src/cpp02_rosbag2/src/demo01_writer.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSimpleBagRecord::SimpleBagRecord()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.411774] (cpp02_rosbag2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pz10on/Work/ws02_tools/src/cpp02_rosbag2/src/demo01_writer.cpp:22:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<SimpleBagRecord>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 in assignment\n'}
+[2.411818] (cpp02_rosbag2) StderrLine: {'line': b'   22 |         writer_ = \x1b[01;31m\x1b[Kstd::make_shared<SimpleBagRecord> ()\x1b[m\x1b[K;\n'}
+[2.411857] (cpp02_rosbag2) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.411894] (cpp02_rosbag2) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.411931] (cpp02_rosbag2) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[Kstd::shared_ptr<SimpleBagRecord>\x1b[m\x1b[K\n'}
+[2.505409] (-) TimerEvent: {}
+[2.605695] (-) TimerEvent: {}
+[2.705965] (-) TimerEvent: {}
+[2.749254] (cpp02_rosbag2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo01_writer.cpp.dir/build.make:76: CMakeFiles/demo01_writer.cpp.dir/src/demo01_writer.cpp.o] Error 1\n'}
+[2.749459] (cpp02_rosbag2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/demo01_writer.cpp.dir/all] Error 2\n'}
+[2.749535] (cpp02_rosbag2) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.806058] (-) TimerEvent: {}
+[2.820315] (cpp02_rosbag2) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable demo02_read.cpp\x1b[0m\n'}
+[2.906192] (-) TimerEvent: {}
+[2.939647] (cpp02_rosbag2) StdoutLine: {'line': b'[ 75%] Built target demo02_read.cpp\n'}
+[2.940266] (cpp02_rosbag2) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.941683] (cpp02_rosbag2) CommandEnded: {'returncode': 2}
+[2.973080] (cpp02_rosbag2) JobEnded: {'identifier': 'cpp02_rosbag2', 'rc': 2}
+[2.983573] (-) EventReactorShutdown: {}

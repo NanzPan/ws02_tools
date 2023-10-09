@@ -1,0 +1,89 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pz10on/Work/ws02_tools/build/kruisee_lidar
+[  5%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/common/loader.cc.o[0m
+[  7%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/drivers/ethernet_win.cc.o[0m
+[  7%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/common/configurator.cc.o[0m
+[  9%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/drivers/uart_win.cc.o[0m
+[  9%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/drivers/uart_unix.cc.o[0m
+[ 10%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/drivers/protocol.cc.o[0m
+[ 12%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/drivers/lidar.cc.o[0m
+[ 16%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/drivers/ethernet_unix.cc.o[0m
+[ 16%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/filters/search.cc.o[0m
+[ 18%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/common/scripts.cc.o[0m
+[ 20%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/filters/outlierfilter.cc.o[0m
+[ 21%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/filters/smoother.cc.o[0m
+[ 23%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/filters/trailingfilter.cc.o[0m
+[ 25%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/sdkcore.cc.o[0m
+[ 27%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lapi.c.o[0m
+[ 29%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lcode.c.o[0m
+[ 30%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lctype.c.o[0m
+[ 32%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/ldebug.c.o[0m
+[ 34%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/ldo.c.o[0m
+[ 36%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/ldump.c.o[0m
+[ 38%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lfunc.c.o[0m
+[ 40%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lgc.c.o[0m
+[ 41%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/llex.c.o[0m
+[ 43%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lmem.c.o[0m
+[ 45%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lobject.c.o[0m
+[ 47%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lopcodes.c.o[0m
+[ 49%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/loslib.c.o[0m
+[ 50%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lparser.c.o[0m
+[ 52%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lstate.c.o[0m
+[ 54%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/ltable.c.o[0m
+[ 56%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lstring.c.o[0m
+[ 58%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/ltm.c.o[0m
+[ 60%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lundump.c.o[0m
+[ 61%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lvm.c.o[0m
+[ 65%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lauxlib.c.o[0m
+[ 65%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lzio.c.o[0m
+[ 67%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lbaselib.c.o[0m
+[ 69%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lcorolib.c.o[0m
+[ 70%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/ldblib.c.o[0m
+[ 72%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/liolib.c.o[0m
+[ 74%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lmathlib.c.o[0m
+[ 76%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/loadlib.c.o[0m
+[ 80%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lstrlib.c.o[0m
+[ 80%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/ltablib.c.o[0m
+[ 81%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lutf8lib.c.o[0m
+[ 83%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/linit.c.o[0m
+[ 85%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/third_party/flann/src/cpp/flann/flann_cpp.cpp.o[0m
+[ 87%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lz4/lib/lz4.c.o[0m
+[ 89%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lz4/lib/lz4frame.c.o[0m
+[ 90%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lz4/lib/lz4hc.c.o[0m
+[ 92%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lz4/lib/xxhash.c.o[0m
+[ 94%] [32m[1mLinking CXX shared library libsdk_core.so[0m
+[ 94%] Built target sdk_core
+[ 98%] [32mBuilding CXX object CMakeFiles/kruisee_lidar_node.dir/top/node.cc.o[0m
+[ 98%] [32mBuilding CXX object CMakeFiles/kruisee_lidar_node.dir/top/main.cc.o[0m

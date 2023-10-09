@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target sdk_core[0m
+[ 94%] Built target sdk_core
+[35m[1mConsolidate compiler generated dependencies of target kruisee_lidar_node[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/kruisee_lidar_node.dir/top/main.cc.o[0m
+[ 98%] [32mBuilding CXX object CMakeFiles/kruisee_lidar_node.dir/top/node.cc.o[0m

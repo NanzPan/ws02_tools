@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.000270] (-) JobUnselected: {'identifier': 'Pz_Car'}
+[0.000318] (-) JobUnselected: {'identifier': 'cpp01_launch'}
+[0.000336] (-) JobUnselected: {'identifier': 'cpp02_rosbag2'}
+[0.000347] (-) JobUnselected: {'identifier': 'cpp03_tf_broadcaster'}
+[0.000365] (-) JobUnselected: {'identifier': 'cpp04_tf_listener'}
+[0.000400] (-) JobUnselected: {'identifier': 'cpp06_urdf'}
+[0.000410] (-) JobUnselected: {'identifier': 'kruisee_lidar'}
+[0.000480] (-) EventReactorShutdown: {}

@@ -1,0 +1,17 @@
+/home/pz10on/Work/ws02_tools/install/cpp02_rosbag2/lib/cpp02_rosbag2/demo01_writer.cpp
+/home/pz10on/Work/ws02_tools/install/cpp02_rosbag2/lib/cpp02_rosbag2/demo02_read.cpp
+/home/pz10on/Work/ws02_tools/install/cpp02_rosbag2/share/ament_index/resource_index/package_run_dependencies/cpp02_rosbag2
+/home/pz10on/Work/ws02_tools/install/cpp02_rosbag2/share/ament_index/resource_index/parent_prefix_path/cpp02_rosbag2
+/home/pz10on/Work/ws02_tools/install/cpp02_rosbag2/share/cpp02_rosbag2/environment/ament_prefix_path.sh
+/home/pz10on/Work/ws02_tools/install/cpp02_rosbag2/share/cpp02_rosbag2/environment/ament_prefix_path.dsv
+/home/pz10on/Work/ws02_tools/install/cpp02_rosbag2/share/cpp02_rosbag2/environment/path.sh
+/home/pz10on/Work/ws02_tools/install/cpp02_rosbag2/share/cpp02_rosbag2/environment/path.dsv
+/home/pz10on/Work/ws02_tools/install/cpp02_rosbag2/share/cpp02_rosbag2/local_setup.bash
+/home/pz10on/Work/ws02_tools/install/cpp02_rosbag2/share/cpp02_rosbag2/local_setup.sh
+/home/pz10on/Work/ws02_tools/install/cpp02_rosbag2/share/cpp02_rosbag2/local_setup.zsh
+/home/pz10on/Work/ws02_tools/install/cpp02_rosbag2/share/cpp02_rosbag2/local_setup.dsv
+/home/pz10on/Work/ws02_tools/install/cpp02_rosbag2/share/cpp02_rosbag2/package.dsv
+/home/pz10on/Work/ws02_tools/install/cpp02_rosbag2/share/ament_index/resource_index/packages/cpp02_rosbag2
+/home/pz10on/Work/ws02_tools/install/cpp02_rosbag2/share/cpp02_rosbag2/cmake/cpp02_rosbag2Config.cmake
+/home/pz10on/Work/ws02_tools/install/cpp02_rosbag2/share/cpp02_rosbag2/cmake/cpp02_rosbag2Config-version.cmake
+/home/pz10on/Work/ws02_tools/install/cpp02_rosbag2/share/cpp02_rosbag2/package.xml

@@ -1,0 +1,4 @@
+Invoking command in '/home/pz10on/Work/ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws02_tools/build/cpp03_tf_broadcaster -- -j12 -l12
+Invoked command in '/home/pz10on/Work/ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws02_tools/build/cpp03_tf_broadcaster -- -j12 -l12
+Invoking command in '/home/pz10on/Work/ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pz10on/Work/ws02_tools/build/cpp03_tf_broadcaster
+Invoked command in '/home/pz10on/Work/ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pz10on/Work/ws02_tools/build/cpp03_tf_broadcaster

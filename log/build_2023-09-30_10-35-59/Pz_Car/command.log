@@ -1,0 +1,2 @@
+Invoking command in '/home/pz10on/Work/ws02_tools/build/Pz_Car': /usr/bin/cmake /home/pz10on/Work/ws02_tools/src/pz_car -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pz10on/Work/ws02_tools/install/Pz_Car
+Invoked command in '/home/pz10on/Work/ws02_tools/build/Pz_Car' returned '1': /usr/bin/cmake /home/pz10on/Work/ws02_tools/src/pz_car -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pz10on/Work/ws02_tools/install/Pz_Car

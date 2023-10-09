@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20231009-0130-Experimental"
+	Name="pz10on-laptop"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="pz10on-laptop"
+	OSRelease="6.2.0-34-generic"
+	OSVersion="#34~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep  7 13:12:03 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="141"
+	ProcessorCacheSize="12288"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="15529"
+	TotalPhysicalMemory="15559"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="4152.31"
+	>
+	<Testing>
+		<StartDateTime>Oct 09 17:35 CST</StartDateTime>
+		<StartTestTime>1696844111</StartTestTime>
+		<TestList/>
+		<EndDateTime>Oct 09 17:35 CST</EndDateTime>
+		<EndTestTime>1696844111</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

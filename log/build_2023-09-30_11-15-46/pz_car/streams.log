@@ -1,0 +1,9 @@
+[0.009s] Invoking command in '/home/pz10on/Work/ws02_tools/build/pz_car': /usr/bin/cmake /home/pz10on/Work/ws02_tools/src/pz_car -DCMAKE_INSTALL_PREFIX=/home/pz10on/Work/ws02_tools/install/pz_car
+[0.014s] [31mCMake Error at CMakeLists.txt:1:
+[0.014s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.014s]   "以下是将CMakeLists.txt文件从ROS".
+[0.014s] 
+[0.014s] [0m
+[0.014s] -- Configuring incomplete, errors occurred!
+[0.014s] See also "/home/pz10on/Work/ws02_tools/build/pz_car/CMakeFiles/CMakeOutput.log".
+[0.015s] Invoked command in '/home/pz10on/Work/ws02_tools/build/pz_car' returned '1': /usr/bin/cmake /home/pz10on/Work/ws02_tools/src/pz_car -DCMAKE_INSTALL_PREFIX=/home/pz10on/Work/ws02_tools/install/pz_car

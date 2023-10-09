@@ -1,0 +1,81 @@
+[0.014s] Invoking command in '/home/pz10on/Work/ws02_tools/build/kruisee_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pz10on/Work/ws02_tools/install/py01_launch:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws02_tools/build/kruisee_lidar -- -j12 -l12
+[0.034s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.126s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.142s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.144s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.147s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.154s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.197s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.198s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.269s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.373s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.497s] -- Configuring done
+[0.508s] -- Generating done
+[0.510s] -- Build files have been written to: /home/pz10on/Work/ws02_tools/build/kruisee_lidar
+[0.532s] [35m[1mConsolidate compiler generated dependencies of target sdk_core[0m
+[0.560s] [ 94%] Built target sdk_core
+[0.568s] [35m[1mConsolidate compiler generated dependencies of target kruisee_lidar_node[0m
+[0.580s] [100%] Built target kruisee_lidar_node
+[0.588s] Invoked command in '/home/pz10on/Work/ws02_tools/build/kruisee_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pz10on/Work/ws02_tools/install/py01_launch:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws02_tools/build/kruisee_lidar -- -j12 -l12
+[0.616s] Invoking command in '/home/pz10on/Work/ws02_tools/build/kruisee_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pz10on/Work/ws02_tools/install/py01_launch:/opt/ros/humble /usr/bin/cmake --install /home/pz10on/Work/ws02_tools/build/kruisee_lidar
+[0.622s] -- Install configuration: ""
+[0.622s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/ament_index/resource_index/package_run_dependencies/kruisee_lidar
+[0.623s] -- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/ament_index/resource_index/parent_prefix_path/kruisee_lidar
+[0.623s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/environment/ament_prefix_path.sh
+[0.623s] -- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/environment/ament_prefix_path.dsv
+[0.623s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/environment/path.sh
+[0.623s] -- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/environment/path.dsv
+[0.623s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/local_setup.bash
+[0.623s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/local_setup.sh
+[0.623s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/local_setup.zsh
+[0.623s] -- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/local_setup.dsv
+[0.623s] -- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/package.dsv
+[0.623s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/ament_index/resource_index/packages/kruisee_lidar
+[0.623s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/cmake/kruisee_lidarConfig.cmake
+[0.623s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/cmake/kruisee_lidarConfig-version.cmake
+[0.623s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/package.xml
+[0.623s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/lib/kruisee_lidar/kruisee_lidar_node
+[0.623s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/launch
+[0.623s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/launch/kruisee_lidar.xml
+[0.623s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/launch/kruisee_lidar.yaml
+[0.623s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/config
+[0.624s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/config/lidar.lua
+[0.624s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/config/protocol.lua
+[0.624s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/config/pose.lua
+[0.624s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/config/kruisee_lidar.rviz
+[0.624s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/config/kruisee_lidar_0.lua
+[0.624s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/config/filters.lua
+[0.624s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/config/kruisee_lidar_1.lua
+[0.624s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/config/kruisee_lidar_t.lua
+[0.624s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/lib/libsdk_core.so
+[0.624s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include
+[0.624s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/common
+[0.624s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/common/scripts.h
+[0.624s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/common/loader.h
+[0.624s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/common/configurator.h
+[0.624s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/filters
+[0.624s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/filters/smoother.h
+[0.624s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/filters/outlierfilter.h
+[0.624s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/filters/point2d.h
+[0.625s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/filters/trailingfilter.h
+[0.625s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/filters/ismoother.h
+[0.625s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/sdkcore.h
+[0.625s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/drivers
+[0.625s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/drivers/ethernet.h
+[0.625s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/drivers/msg.h
+[0.625s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/drivers/iworker.h
+[0.625s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/drivers/lidar.h
+[0.625s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/drivers/uart.h
+[0.625s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/drivers/message.h
+[0.625s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/drivers/protocol.h
+[0.625s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/config
+[0.625s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/config/lidar.lua
+[0.625s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/config/protocol.lua
+[0.625s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/config/pose.lua
+[0.625s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/config/kruisee_lidar.rviz
+[0.625s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/config/kruisee_lidar_0.lua
+[0.625s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/config/filters.lua
+[0.625s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/config/kruisee_lidar_1.lua
+[0.625s] -- Up-to-date: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/config/kruisee_lidar_t.lua
+[0.626s] Invoked command in '/home/pz10on/Work/ws02_tools/build/kruisee_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pz10on/Work/ws02_tools/install/py01_launch:/opt/ros/humble /usr/bin/cmake --install /home/pz10on/Work/ws02_tools/build/kruisee_lidar

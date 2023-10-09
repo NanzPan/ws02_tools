@@ -1,0 +1,3 @@
+[0.008s] Invoking command in '/home/pz10on/Work/ws02_tools/build/Pz_Car': /usr/bin/cmake /home/pz10on/Work/ws02_tools/src/pz_car -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pz10on/Work/ws02_tools/install/Pz_Car
+[0.012s] [0mCMake Error: The source "/home/pz10on/Work/ws02_tools/src/pz_car/CMakeLists.txt" does not match the source "/home/pz10on/Work/ws02_tools/src/Pz_Car/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m
+[0.013s] Invoked command in '/home/pz10on/Work/ws02_tools/build/Pz_Car' returned '1': /usr/bin/cmake /home/pz10on/Work/ws02_tools/src/pz_car -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pz10on/Work/ws02_tools/install/Pz_Car

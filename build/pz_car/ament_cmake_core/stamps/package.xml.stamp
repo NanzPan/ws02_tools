@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>pz_car</name>
+  <version>1.0.0</version>
+  <description>URDF Description package for pz_car</description>
+  <maintainer email="TODO@email.com">TODO</maintainer>
+  <license>BSD</license>
+  <build_type>ament_cmake</build_type>
+  <depend>roslaunch</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>rviz</depend>
+  <depend>joint_state_publisher_gui</depend>
+  <depend>gazebo</depend>
+</package>

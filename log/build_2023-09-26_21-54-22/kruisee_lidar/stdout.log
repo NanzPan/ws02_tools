@@ -1,0 +1,133 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pz10on/Work/ws02_tools/build/kruisee_lidar
+[35m[1mConsolidate compiler generated dependencies of target sdk_core[0m
+[ 10%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/drivers/ethernet_unix.cc.o[0m
+[ 10%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/common/scripts.cc.o[0m
+[ 10%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/common/loader.cc.o[0m
+[ 10%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/drivers/uart_win.cc.o[0m
+[ 10%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/drivers/ethernet_win.cc.o[0m
+[ 12%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/drivers/uart_unix.cc.o[0m
+[ 14%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/drivers/protocol.cc.o[0m
+[ 16%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/drivers/lidar.cc.o[0m
+[ 10%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/common/configurator.cc.o[0m
+[ 18%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/filters/outlierfilter.cc.o[0m
+[ 20%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/filters/search.cc.o[0m
+[ 21%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/filters/smoother.cc.o[0m
+[ 25%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/sdkcore.cc.o[0m
+[ 25%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/filters/trailingfilter.cc.o[0m
+[ 27%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lapi.c.o[0m
+[ 29%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lcode.c.o[0m
+[ 30%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lctype.c.o[0m
+[ 32%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/ldebug.c.o[0m
+[ 34%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/ldo.c.o[0m
+[ 36%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/ldump.c.o[0m
+[ 38%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lfunc.c.o[0m
+[ 40%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lgc.c.o[0m
+[ 41%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/llex.c.o[0m
+[ 43%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lmem.c.o[0m
+[ 45%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lobject.c.o[0m
+[ 47%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lopcodes.c.o[0m
+[ 49%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/loslib.c.o[0m
+[ 50%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lparser.c.o[0m
+[ 52%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lstate.c.o[0m
+[ 54%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lstring.c.o[0m
+[ 56%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/ltable.c.o[0m
+[ 58%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/ltm.c.o[0m
+[ 60%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lundump.c.o[0m
+[ 61%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lvm.c.o[0m
+[ 63%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lzio.c.o[0m
+[ 65%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lauxlib.c.o[0m
+[ 67%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lbaselib.c.o[0m
+[ 69%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lcorolib.c.o[0m
+[ 70%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/ldblib.c.o[0m
+[ 72%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/liolib.c.o[0m
+[ 74%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lmathlib.c.o[0m
+[ 76%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/loadlib.c.o[0m
+[ 78%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lstrlib.c.o[0m
+[ 80%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/ltablib.c.o[0m
+[ 81%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/lutf8lib.c.o[0m
+[ 83%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lua/linit.c.o[0m
+[ 85%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lz4/lib/lz4.c.o[0m
+[ 87%] [32mBuilding CXX object sdk_core/CMakeFiles/sdk_core.dir/third_party/flann/src/cpp/flann/flann_cpp.cpp.o[0m
+[ 89%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lz4/lib/lz4frame.c.o[0m
+[ 90%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lz4/lib/lz4hc.c.o[0m
+[ 92%] [32mBuilding C object sdk_core/CMakeFiles/sdk_core.dir/third_party/lz4/lib/xxhash.c.o[0m
+[ 94%] [32m[1mLinking CXX shared library libsdk_core.so[0m
+[ 94%] Built target sdk_core
+[35m[1mConsolidate compiler generated dependencies of target kruisee_lidar_node[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/kruisee_lidar_node.dir/top/main.cc.o[0m
+[ 98%] [32mBuilding CXX object CMakeFiles/kruisee_lidar_node.dir/top/node.cc.o[0m
+[100%] [32m[1mLinking CXX executable kruisee_lidar_node[0m
+[100%] Built target kruisee_lidar_node
+-- Install configuration: ""
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/ament_index/resource_index/package_run_dependencies/kruisee_lidar
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/ament_index/resource_index/parent_prefix_path/kruisee_lidar
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/environment/ament_prefix_path.sh
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/environment/ament_prefix_path.dsv
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/environment/path.sh
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/environment/path.dsv
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/local_setup.bash
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/local_setup.sh
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/local_setup.zsh
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/local_setup.dsv
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/package.dsv
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/ament_index/resource_index/packages/kruisee_lidar
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/cmake/kruisee_lidarConfig.cmake
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/cmake/kruisee_lidarConfig-version.cmake
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/package.xml
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/lib/kruisee_lidar/kruisee_lidar_node
+-- Set runtime path of "/home/pz10on/Work/ws02_tools/install/kruisee_lidar/lib/kruisee_lidar/kruisee_lidar_node" to ""
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/launch
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/launch/kruisee_lidar.xml
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/launch/kruisee_lidar.yaml
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/config
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/config/lidar.lua
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/config/protocol.lua
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/config/pose.lua
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/config/kruisee_lidar.rviz
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/config/kruisee_lidar_0.lua
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/config/filters.lua
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/config/kruisee_lidar_1.lua
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/share/kruisee_lidar/config/kruisee_lidar_t.lua
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/lib/libsdk_core.so
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/common
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/common/scripts.h
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/common/loader.h
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/common/configurator.h
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/filters
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/filters/smoother.h
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/filters/outlierfilter.h
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/filters/point2d.h
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/filters/trailingfilter.h
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/filters/ismoother.h
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/sdkcore.h
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/drivers
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/drivers/ethernet.h
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/drivers/msg.h
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/drivers/iworker.h
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/drivers/lidar.h
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/drivers/uart.h
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/drivers/message.h
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/include/drivers/protocol.h
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/config
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/config/lidar.lua
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/config/protocol.lua
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/config/pose.lua
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/config/kruisee_lidar.rviz
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/config/kruisee_lidar_0.lua
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/config/filters.lua
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/config/kruisee_lidar_1.lua
+-- Installing: /home/pz10on/Work/ws02_tools/install/kruisee_lidar/config/kruisee_lidar_t.lua

@@ -1,0 +1,17 @@
+[01m[K/home/pz10on/Work/ws02_tools/src/cpp02_rosbag2/src/demo01_writer.cpp:28:25:[m[K [01;31m[Kerror: [m[K‘[01m[Krosbag2_cpp[m[K’ was not declared in this scope
+   28 |         std::unique_ptr<[01;31m[Krosbag2_cpp[m[K::Writer> writer_;
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/pz10on/Work/ws02_tools/src/cpp02_rosbag2/src/demo01_writer.cpp:28:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   28 |         std::unique_ptr<rosbag2_cpp::Writer[01;31m[K>[m[K writer_;
+      |                                            [01;31m[K^[m[K
+[01m[K/home/pz10on/Work/ws02_tools/src/cpp02_rosbag2/src/demo01_writer.cpp:28:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/pz10on/Work/ws02_tools/src/cpp02_rosbag2/src/demo01_writer.cpp:[m[K In constructor ‘[01m[KSimpleBagRecord::SimpleBagRecord()[m[K’:
+[01m[K/home/pz10on/Work/ws02_tools/src/cpp02_rosbag2/src/demo01_writer.cpp:22:53:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::shared_ptr<SimpleBagRecord>[m[K’ to ‘[01m[Kint[m[K’ in assignment
+   22 |         writer_ = [01;31m[Kstd::make_shared<SimpleBagRecord> ()[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+      |                                                     [01;31m[K|[m[K
+      |                                                     [01;31m[Kstd::shared_ptr<SimpleBagRecord>[m[K
+gmake[2]: *** [CMakeFiles/demo01_writer.cpp.dir/build.make:76: CMakeFiles/demo01_writer.cpp.dir/src/demo01_writer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/demo01_writer.cpp.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

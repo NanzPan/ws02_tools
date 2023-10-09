@@ -1,0 +1,60 @@
+[0.012s] Invoking command in '/home/pz10on/Work/ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pz10on/Work/ws02_tools/src/cpp03_tf_broadcaster -DCMAKE_INSTALL_PREFIX=/home/pz10on/Work/ws02_tools/install/cpp03_tf_broadcaster
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.122s] -- The CXX compiler identification is GNU 11.4.0
+[0.128s] -- Detecting C compiler ABI info
+[0.172s] -- Detecting C compiler ABI info - done
+[0.177s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.177s] -- Detecting C compile features
+[0.177s] -- Detecting C compile features - done
+[0.179s] -- Detecting CXX compiler ABI info
+[0.232s] -- Detecting CXX compiler ABI info - done
+[0.237s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.237s] -- Detecting CXX compile features
+[0.237s] -- Detecting CXX compile features - done
+[0.240s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.350s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.406s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.432s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.435s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.441s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.450s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.462s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.511s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.513s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.579s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.600s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.637s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.643s] -- Looking for pthread.h
+[0.697s] -- Looking for pthread.h - found
+[0.697s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.750s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.751s] -- Found Threads: TRUE  
+[0.870s] -- Found tf2: 0.25.3 (/opt/ros/humble/share/tf2/cmake)
+[0.921s] -- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.167s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.206s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.258s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.258s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/pz10on/Work/ws02_tools/src/cpp03_tf_broadcaster/include>
+[1.258s] -- Configured cppcheck exclude dirs and/or files: 
+[1.258s] -- Added test 'lint_cmake' to check CMake code style
+[1.259s] -- Added test 'uncrustify' to check C / C++ code style
+[1.259s] -- Configured uncrustify additional arguments: 
+[1.259s] -- Added test 'xmllint' to check XML markup files
+[1.260s] -- Configuring done
+[1.270s] -- Generating done
+[1.271s] -- Build files have been written to: /home/pz10on/Work/ws02_tools/build/cpp03_tf_broadcaster
+[1.279s] Invoked command in '/home/pz10on/Work/ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pz10on/Work/ws02_tools/src/cpp03_tf_broadcaster -DCMAKE_INSTALL_PREFIX=/home/pz10on/Work/ws02_tools/install/cpp03_tf_broadcaster
+[1.280s] Invoking command in '/home/pz10on/Work/ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws02_tools/build/cpp03_tf_broadcaster -- -j12 -l12
+[1.315s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_static_tf_broadcaster.dir/src/demo01_static_tf_broadcaster.cpp.o[0m
+[1.315s] [ 50%] [32mBuilding CXX object CMakeFiles/demo02_dynamic_tf_broadcaster.dir/src/demo02_dynamic_tf_broadcaster.cpp.o[0m
+[1.329s] [ 75%] [32m[1mLinking CXX executable demo01_static_tf_broadcaster[0m
+[1.419s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[1.419s] (.text+0x1b): undefined reference to `main'
+[1.420s] collect2: error: ld returned 1 exit status
+[1.421s] gmake[2]: *** [CMakeFiles/demo01_static_tf_broadcaster.dir/build.make:205: demo01_static_tf_broadcaster] Error 1
+[1.422s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/demo01_static_tf_broadcaster.dir/all] Error 2
+[1.422s] gmake[1]: *** Waiting for unfinished jobs....
+[3.403s] [100%] [32m[1mLinking CXX executable demo02_dynamic_tf_broadcaster[0m
+[3.491s] [100%] Built target demo02_dynamic_tf_broadcaster
+[3.491s] gmake: *** [Makefile:146: all] Error 2
+[3.493s] Invoked command in '/home/pz10on/Work/ws02_tools/build/cpp03_tf_broadcaster' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws02_tools/build/cpp03_tf_broadcaster -- -j12 -l12

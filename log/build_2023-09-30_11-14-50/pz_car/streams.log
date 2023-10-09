@@ -1,0 +1,23 @@
+[0.009s] Invoking command in '/home/pz10on/Work/ws02_tools/build/pz_car': /usr/bin/cmake /home/pz10on/Work/ws02_tools/src/pz_car -DCMAKE_INSTALL_PREFIX=/home/pz10on/Work/ws02_tools/install/pz_car
+[0.019s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.127s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.189s] -- Configuring incomplete, errors occurred!
+[0.189s] See also "/home/pz10on/Work/ws02_tools/build/pz_car/CMakeFiles/CMakeOutput.log".
+[0.189s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[0.189s]   By not providing "Findroslaunch.cmake" in CMAKE_MODULE_PATH this project
+[0.189s]   has asked CMake to find a package configuration file provided by
+[0.189s]   "roslaunch", but CMake did not find one.
+[0.189s] 
+[0.189s]   Could not find a package configuration file provided by "roslaunch" with
+[0.189s]   any of the following names:
+[0.189s] 
+[0.189s]     roslaunchConfig.cmake
+[0.189s]     roslaunch-config.cmake
+[0.189s] 
+[0.189s]   Add the installation prefix of "roslaunch" to CMAKE_PREFIX_PATH or set
+[0.189s]   "roslaunch_DIR" to a directory containing one of the above files.  If
+[0.189s]   "roslaunch" provides a separate development package or SDK, be sure it has
+[0.189s]   been installed.
+[0.189s] 
+[0.189s] [0m
+[0.191s] Invoked command in '/home/pz10on/Work/ws02_tools/build/pz_car' returned '1': /usr/bin/cmake /home/pz10on/Work/ws02_tools/src/pz_car -DCMAKE_INSTALL_PREFIX=/home/pz10on/Work/ws02_tools/install/pz_car
